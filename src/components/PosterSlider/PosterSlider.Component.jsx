@@ -7,7 +7,7 @@ const PosterSlider = (props) => {
     const { posters, title, subtitle, isDark, config } = props;
 
     const settings = {
-        infinite: false,
+        infinite: true,
         speed: 500,
         slidesToShow: 5,
         slidesToScroll: 4,
