@@ -80,7 +80,7 @@ const EntertainmentCardSlider = () => {
                 ))}
             </Slider>
         </>
-    )
-}
+    );
+};
 
-export default EntertainmentCardSlider
+export default EntertainmentCardSlider;

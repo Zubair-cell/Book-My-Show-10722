@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { BiChevronDown, BiMenu, BiSearch, BiShareAlt } from 'react-icons/bi';
-import { Movi, MovieContext } from "../../context/Movie.context";
+import { MovieContext } from "../../context/Movie.context";
 
 
 const NavSm = () => {
@@ -13,7 +13,7 @@ const NavSm = () => {
                     <h3 className='text-xl font-bold'>{movie.original_title}</h3>
                 </div>
                 <div className='w-8 h-8'>
-                    <BiSearch className='w-full h-full' />
+                    <BiShareAlt className='w-full h-full' />
                 </div>
             </div>
 

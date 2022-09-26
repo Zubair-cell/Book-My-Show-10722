@@ -12,10 +12,10 @@ const Cast = (props) => {
                     />
                 </div>
                 <h1 className='text-xl text-gray-800'>{props.castName}</h1>
-                <h1 className='text-sm text-gray-500'>as {props.role}</h1>
+                <h5 className='text-sm text-gray-500'>as {props.role}</h5>
             </div>
         </div>
     )
 }
 
-export default Cast
+export default Cast;
